@@ -1,0 +1,42 @@
+// 1. System Library
+loadModel(Modelica);
+getErrorString();
+
+// 2. Global Constants & Records 
+loadFile("parameters.mo");
+getErrorString();
+
+// 3. Connectors & Custom Types (Must be loaded before they are used in blocks)
+loadFile("C.mo");
+getErrorString();
+
+loadFile("CallFFNN.mo");
+getErrorString();
+
+loadFile("Noise.mo");
+getErrorString();
+
+loadFile("randgen.mo");
+getErrorString();
+
+// 5. Leaf Subsystems (No custom sub-blocks inside them)
+loadFile("uav-hw.mo");
+getErrorString();
+
+loadFile("ctr_AI_cart.mo");
+getErrorString();
+
+loadFile("LIdar-Frontier.mo");
+getErrorString();
+
+// 6. Integrated Subsystem (UAV block - combines hardware, controller, and sensors)
+loadFile("uav.mo");
+getErrorString();
+
+// 7. Top-level Coordination & Scenario Blocks
+loadFile("setpoint.mo");
+getErrorString();
+
+
+loadFile("Swarm.mo"); // MultiUAVSystem (The simulation entry point)
+getErrorString();

@@ -1,0 +1,5 @@
+
+runScript("path_to_load.mos");
+
+runScript("path_to_simulate.mos");
+
