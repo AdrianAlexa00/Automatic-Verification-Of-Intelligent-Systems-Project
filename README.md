@@ -6,6 +6,7 @@ This repository contains the official implementation and simulation framework fo
 The repository includes:
 
 Paper: The complete project paper detailing the methodology and results.
+
 Modelica/ directory:
   Python scripts for training (Evolution Strategies) and testing the controller.
 
