@@ -9,5 +9,5 @@ Paper: The complete project paper detailing the methodology and results.
 
 Modelica/ directory:
     Python scripts for training (Evolution Strategies) and testing the controller.
-    The complete Modelica architecture used to model and simulate the multi-UAV swarm environment.
-    Pre-trained Feed-Forward Neural Network (FFNN) weights ready for evaluation.
+    The complete Modelica architecture used to model and simulate the multi-UAV swarm environment as well as the
+    pre-trained Feed-Forward Neural Network (FFNN) weights ready for evaluation.
