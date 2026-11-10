@@ -22,5 +22,5 @@ function callFFNN
         safe_vx_local,
         safe_vy_local,
         safe_vz_local
-  ) annotation(Include="#include \"/home/adrian/Documents/Modelica/Swarm_10_09/FFNN_Lidar_cart.c\"");
+  ) annotation(Include="#include \"/path_to_the_FFNN\"");
 end callFFNN;
