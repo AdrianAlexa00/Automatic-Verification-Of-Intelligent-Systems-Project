@@ -7,6 +7,6 @@ chmod +x *.sh
 #./mkload.sh
 
 # 1. Simulate using the command-line compiler
-omc /home/adrian/Documents/Modelica/Swarm_10_09/run.mos
+omc path_to_run.mos
 
 
